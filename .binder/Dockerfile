@@ -5,6 +5,6 @@ USER ${NB_USER}
 
 
 
-RUN wget https://github.com/kayinleung/my-first-binder/raw/master/DESCRIPTION && R -e "options(repos = list(CRAN = 'http://mran.revolutionanalytics.com/snapshot/2024-12-13/')); devtools::install_deps()"
+RUN wget https://github.com/kayinleung/my-first-binder/raw/main/DESCRIPTION && R -e "options(repos = list(CRAN = 'http://mran.revolutionanalytics.com/snapshot/2024-12-13/')); devtools::install_deps()"
 
 RUN rm DESCRIPTION.1; exit 0
