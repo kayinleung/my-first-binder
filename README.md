@@ -1,5 +1,7 @@
 # my-first-binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kayinleung/my-first-binder/HEAD?urlpath=rstudio)
+  <!-- badges: start -->
+  [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kayinleung/my-first-binder/master?urlpath=rstudio)
+  <!-- badges: end -->
 
 https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html
